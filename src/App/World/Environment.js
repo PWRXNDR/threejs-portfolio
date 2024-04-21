@@ -103,9 +103,9 @@ export default class Environment {
 
     this.portal1 = new Portal(portalMesh1, modalContentProvider.getModalInfo('aboutMe'))
     this.portal2 = new Portal(portalMesh2, modalContentProvider.getModalInfo('projects'))
-    this.portal3 = new Portal(portalMesh3, modalContentProvider.getModalInfo('XR'))
+    this.portal3 = new Portal(portalMesh3, modalContentProvider.getModalInfo('certs'))
     this.portal4 = new Portal(portalMesh4, modalContentProvider.getModalInfo('Calisthenics'))
-    this.portal5 = new Portal(portalMesh5, modalContentProvider.getModalInfo('contactMe'))
+    this.portal5 = new Portal(portalMesh5, modalContentProvider.getModalInfo('XR'))
     this.portal6 = new Portal(portalMesh6, modalContentProvider.getModalInfo('Portfolio'))
   }
 
