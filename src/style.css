@@ -151,3 +151,14 @@ body {
 .modal p {
     font-weight: 300;
 }
+
+#joystick-container {
+    display: none;
+}
+
+/* Only display the joystick on screens smaller than 1024 pixels wide */
+@media (max-width: 1600px) {
+    #joystick-container {
+        display: block;
+    }
+}
