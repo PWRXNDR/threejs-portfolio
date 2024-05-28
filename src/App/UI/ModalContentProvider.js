@@ -21,7 +21,7 @@ export default class ModalContentProvider {
                                 </style>
                                   <div style="text-align: start;">
                                     <img src="/img/profile_img.jpg" alt="profile img" style="float:left; margin-right: 15px; width: 17vh; height: auto; border-radius: 75px;">
-                                    My name is Alex Dubranov, I'm an AI Integration Specialist and Web Developer. My expertise includes incorporating advanced technologies such as natural language processing and predictive analytics to create dynamic web experiences. While I have a keen interest in smart contracts and blockchain technology, my primary focus is on leveraging AI to streamline and enhance web functionalities, ensuring intuitive and efficient user interactions.
+                                    My name is Alex Dubranov, I'm an AI Integration Specialist and Web Developer. My expertise includes incorporating advanced technologies such as natural language processing and predictive analytics to create dynamic web experiences. My work also extends to smart contracts and blockchain technology, but my core focus remains on leveraging AI to refine and augment web functionalities.
                                   </div>
                                   <div style="margin-top: 15px; ">
                                     <img src="/img/xr.png" alt="xr" style="float:right; margin-left: 15px; width: 17vh; height: auto; border-radius: 75px;">
@@ -33,48 +33,55 @@ export default class ModalContentProvider {
             projects: {
                 title: 'Projects',
                 description: `<div style="max-height: 50vh; overflow-y: auto; max-width: 100%; margin: auto;">
-                                <style>
-                                /* For Webkit (Chrome, Safari, and Opera) */
-                                ::-webkit-scrollbar {
-                                  width: 1px;
-                                }
-                                ::-webkit-scrollbar-track {
-                                  background: transparent;
-                                }
-                                ::-webkit-scrollbar-thumb {
-                                  background: rgba(30, 100, 150, 0.2);
-                                }
-                                ::-webkit-scrollbar-thumb:hover {
-                                  background: rgba(30, 100, 200, 0.2);
-                                }
-                                </style>
-                                <ul style="list-style-type: none; padding: 0;">
-                                    <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
-                                        <img src="/img/NutriVisionAI.jpg" alt="NutriVisionAI" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
-                                        <a href="https://huggingface.co/spaces/pwrxndr/NutriVisionAI" target="_blank">NutriVisionAI</a> - NutriVisionAI is your every day assistant with healthy food choices. Trained on a large amount of pictures and data, it's cabale of identifying and giving the most precise information and tips. It's currently only a Beta Version, but the work goes every day to enhance it's quality.
-                                    </li>
-                                    <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
-                                        <img src="/img/nasa.png" alt="nasa" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
-                                        <a href="https://pwrxndr.github.io/SpaceScopeExplorer/" target="_blank">SpaceScopeExplorer (NASA APOD)</a> - SpaceScope Explorer is a web-based platform offering enthusiasts a gateway to the wonders of the cosmos, courtesy of NASA's Astronomy Picture of the Day (APOD). With its interactive gallery, users can indulge in daily celestial images, delve into detailed explanations, and seamlessly curate a personal collection of favorites.
-                                    </li>
-                                    <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
-                                        <img src="/img/picinpic.png" alt="PicInPic" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
-                                        <a href="https://pwrxndr.github.io/picture-in-picture/" target="_blank">Picture in Picture App</a> - This innovative application empowers users with the flexibility to create a floating window from any selected page or video. Ideal for multitasking, it allows you to keep a resizable, always-on-top window open, enhancing productivity and offering convenience in accessing content as you navigate across different tasks or websites.
-                                    </li>
-                                    <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
-                                        <img src="/img/eth.png" alt="Ethereum" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
-                                        <a href="https://github.com/PWRXNDR/StableCoin" target="_blank">StableCoin Smart Contract</a> - A Solidity-based contract for a collateral-backed stablecoin, integrating an ERC20 token and an Oracle for price feeds. Key features include dynamic fee rates, collateral management, and a custom Depositor Coin for surplus collateral. This contract allows minting and burning of stablecoins with ETH, ensuring stability and security in transactions.
-                                    </li>
-                                    <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
-                                        <img src="/img/autographix.jpg" alt="Autographix" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
-                                        <a href="https://pwrxndr.github.io/Autographix/" target="_blank">Autographix</a> - is an interactive web platform that seamlessly merges AI-driven text and image creation, enabling users to transform their creative ideas into reality. Designed for artists, creators, and businesses alike, it offers tools that enhance digital storytelling and content creation through intuitive, powerful AI technologies.
-                                    </li>
-                                    <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
-                                        <img src="/img/TWUST.png" alt="TWUST" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
-                                        <a href="https://github.com/PWRXNDR/TWUST" target="_blank">TWUST - Twitter clone built in Rust</a> - Twust is a sleek, simple microblogging platform demonstrating the power and efficiency of Rust for web application development. It's a compact, yet powerful showcase of how Rust's speed and safety can enhance social media tools.
-                                    </li>
-                                </ul>
-                              </div>`,
+                    <style>
+                    /* For Webkit (Chrome, Safari, and Opera) */
+                    ::-webkit-scrollbar {
+                      width: 1px;
+                    }
+                    ::-webkit-scrollbar-track {
+                      background: transparent;
+                    }
+                    ::-webkit-scrollbar-thumb {
+                      background: rgba(30, 100, 150, 0.2);
+                    }
+                    ::-webkit-scrollbar-thumb:hover {
+                      background: rgba(30, 100, 200, 0.2);
+                    }
+                    </style>
+                    <ul style="list-style-type: none; padding: 0;">
+                        <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
+                            <img src="/img/NutriVisionAI.jpg" alt="NutriVisionAI" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
+                            <a href="https://huggingface.co/spaces/pwrxndr/NutriVisionAI" style="color: #000; text-decoration: none;" target="_blank">NutriVisionAI</a> - NutriVisionAI is your every day assistant with healthy food choices. Trained on a large amount of pictures and data, it's cabale of identifying and giving the most precise information and tips. It's currently only a Beta Version, but the work goes every day to enhance its quality.
+                        </li>
+                        <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
+                            <img src="/img/nasa.png" alt="nasa" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
+                            <a href="https://pwrxndr.github.io/SpaceScopeExplorer/" style="color: #000; text-decoration: none;" target="_blank">SpaceScopeExplorer (NASA APOD)</a> - SpaceScope Explorer is a web-based platform offering enthusiasts a gateway to the wonders of the cosmos, courtesy of NASA's Astronomy Picture of the Day (APOD). With its interactive gallery, users can indulge in daily celestial images, delve into detailed explanations, and seamlessly curate a personal collection of favorites.
+                        </li>
+                        <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
+                            <img src="/img/picinpic.png" alt="PicInPic" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
+                            <a href="https://pwrxndr.github.io/picture-in-picture/" style="color: #000; text-decoration: none;" target="_blank">Picture in Picture App</a> - This innovative application empowers users with the flexibility to create a floating window from any selected page or video. Ideal for multitasking, it allows you to keep a resizable, always-on-top window open, enhancing productivity and offering convenience in accessing content as you navigate across different tasks or websites.
+                        </li>
+                        <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
+                            <img src="/img/eth.png" alt="Ethereum" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
+                            <a href="https://github.com/PWRXNDR/StableCoin" style="color: #000; text-decoration: none;" target="_blank">StableCoin Smart Contract</a> - A Solidity-based contract for a collateral-backed stablecoin, integrating an ERC20 token and an Oracle for price feeds. Key features include dynamic fee rates, collateral management, and a custom Depositor Coin for surplus collateral. This contract allows minting and burning of stablecoins with ETH, ensuring stability and security in transactions.
+                        </li>
+                        <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
+                            <img src="/img/autographix.jpg" alt="Autographix" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
+                            <a href="https://pwrxndr.github.io/Autographix/" style="color: #000; text-decoration: none;" target="_blank">Autographix</a> - is an interactive web platform that seamlessly merges AI-driven text and image creation, enabling users to transform their creative ideas into reality. Designed for artists, creators, and businesses alike, it offers tools that enhance digital storytelling and content creation through intuitive, powerful AI technologies.
+                        </li>
+                        <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
+                            <img src="/img/TWUST.png" alt="TWUST" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
+                            <a href="https://github.com/PWRXNDR/TWUST" style="color: #000; text-decoration: none;" target="_blank">TWUST - Twitter clone built in Rust</a> - Twust is a sleek, simple microblogging platform demonstrating the power and efficiency of Rust for web application development. It's a compact, yet powerful showcase of how Rust's speed and safety can enhance social media tools.
+                        </li>
+                        <li style="margin-bottom: 10px; border-bottom: 1px solid #007bff; padding-bottom: 10px;">
+                            <img src="/img/weather.png" alt="Weather-Astro Discord Bot" style="display: block; margin: 10px auto; width:40%; height: auto; border-radius: 5%; box-shadow: (5,5,5);">
+                            <a href="https://discord.com/oauth2/authorize?client_id=1232217064807337994&permissions=2147485696&scope=bot" style="color: #000; text-decoration: none;" target="_blank">Weather-Astro Discord Bot</a> - Weather-Astro Discord Bot provides forecasts and data related to sunset, sunrises, and moonsets moonrises as well as temperature and general weather to any place in the world. You just need to provide the name of the place or zip number.
+                        </li>
+                    </ul>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://pwrxndr.github.io/xnr_website/projects.html" style="color: #007bff; font-size: 2em;">See all my projects</a>
+                    </div>
+                  </div>`,
             },
             certs: {
                 title: 'Contributions, Awards, and Certifications',
@@ -134,6 +141,30 @@ export default class ModalContentProvider {
     </style>
     <div class="icon-scrolling-wrapper">
         <div class="icon-container">
+            <div class="certification-item">
+                <img src="img/IBM.jpg" alt="IBM" class="certification-logo">
+                <span>Product Manager</span>
+            </div>
+            <div class="certification-item">
+                <img src="img/Google.jpg" alt="Google" class="certification-logo">
+                <span>Advanced Data Analytics</span>
+            </div>
+            <div class="certification-item">
+                <img src="img/DataCamp.jpg" alt="DataCamp" class="certification-logo">
+                <span>Certified AI Specialist</span>
+            </div>
+            <div class="certification-item">
+                <img src="img/DeepLearningAI.jpg" alt="DeepLearningAI" class="certification-logo">
+                <span>MLOps for Production</span>
+            </div>
+            <div class="certification-item">
+                <img src="img/ztm.jpg" alt="ZTM" class="certification-logo">
+                <span>Web Development</span>
+            </div>
+            <div class="certification-item">
+                <img src="img/StipendiumHungaricum.jpg" alt="SH" class="certification-logo">
+                <span>SH Scholarship</span>
+            </div>
             <div class="certification-item">
                 <img src="img/IBM.jpg" alt="IBM" class="certification-logo">
                 <span>Product Manager</span>
@@ -361,7 +392,7 @@ export default class ModalContentProvider {
             Portfolio: {
                 title: 'Portfolio',
                 description: `
-        <div style="max-height: 50vh; overflow-y: auto; max-width: 100%;">
+<div style="max-height: 50vh; overflow-y: auto; max-width: 100%;">
     <style>
         /* For Webkit (Chrome, Safari, and Opera) */
         ::-webkit-scrollbar {
@@ -414,19 +445,33 @@ export default class ModalContentProvider {
             background: rgba(0, 0, 0, 0.5);
             opacity: 1; /* make text appear on hover */
         }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
     </style>
     <div style="text-align: center; padding: 20px;">
         <h2 style="margin-bottom: 20px;">Explore My Professional Portfolio</h2>
-        <p>Click the image below to see my live portfolio!</p>
+        <p>Visit to view more about my projects and skills.</p>
         <a href="https://pwrxndr.github.io/Alex_Dubranov/" target="_blank" class="portfolio-link-container">
             <img src="/img/portfolio.png" alt="Portfolio">
             <div class="portfolio-overlay">Go to the Website</div>
         </a>
-        <p style="margin-top: 15px;">Visit to view more about my projects and skills.</p>
+        <p style="margin-top: 15px;">Find me on these social media channels</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/aleksandr-dubranov-394481281/"><i class="bi bi-linkedin" style="font-size: 24px;"></i></a>
+            <a href="https://twitter.com/pwrxndr"><i class="bi bi-twitter" style="font-size: 24px;"></i></a>
+            <a href="https://medium.com/@pwrxndr"><i class="bi bi-medium" style="font-size: 24px;"></i></a>
+            <a href="https://www.youtube.com/@CLSTNX"><i class="bi bi-youtube" style="font-size: 24px;"></i></a>
+            <a href="https://github.com/PWRXNDR"><i class="bi bi-github" style="font-size: 24px;"></i></a>
+            <a href="https://www.instagram.com/pwr_xndr/"><i class="bi bi-instagram" style="font-size: 24px;"></i></a>
+        </div>
     </div>
 </div>
 `
-            },
+            }
         }
     }
 
